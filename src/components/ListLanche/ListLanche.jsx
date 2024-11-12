@@ -82,7 +82,7 @@ const ListLanche = () => {
         <div className="lanche-list-container">
             <h2>Lista de Lanches</h2>
             {lanches.length === 0 ? (
-                <p>Nenhum lanche encontrado :(</p>
+                <p>Nenhum lanche encontrado :</p>
             ) : (
                 <table className="lanche-table">
                     <thead>

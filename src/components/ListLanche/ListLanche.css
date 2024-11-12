@@ -1,0 +1,108 @@
+.lanche-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.lanche-table th, .lanche-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+.lanche-table th {
+    background-color: #F14D56;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.lanche-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.lanche-table tr:hover {
+    background-color: #ffe5e5;
+}
+
+button {
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    filter: brightness(1.1);
+}
+
+.edit-button {
+    background-color: #ff7d00; /* Cor de laranja para editar */
+}
+
+.delete-button {
+    background-color: #F14D56; /* Cor principal para deletar */
+}
+
+.save-button {
+    background-color: #28a745; /* Verde para salvar */
+}
+
+.cancel-button {
+    background-color: #6c757d; /* Cinza para cancelar */
+}
+
+input {
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-right: 10px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #F14D56;
+}
+
+.lanche-table th:nth-child(1), .lanche-table td:nth-child(1) {
+    width: 30%;
+}
+
+.lanche-table th:nth-child(2), .lanche-table td:nth-child(2) {
+    width: 15%;
+}
+
+.lanche-table th:nth-child(3), .lanche-table td:nth-child(3) {
+    width: 10%;
+}
+
+.lanche-table th:nth-child(4), .lanche-table td:nth-child(4) {
+    width: 15%;
+}
+
+.lanche-table th:nth-child(5), .lanche-table td:nth-child(5) {
+    width: 10%;
+}
+
+.lanche-table th:nth-child(6), .lanche-table td:nth-child(6) {
+    width: 15%;
+    text-align: center;
+}
+
+.lanche-image {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}

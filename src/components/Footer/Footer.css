@@ -1,0 +1,20 @@
+footer {
+  background-color: #e21b22 !important; 
+  color: #fff;
+  padding: 1.5rem;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+footer a {
+  color: #fff;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #fffb00;
+}

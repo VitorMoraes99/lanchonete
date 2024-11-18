@@ -35,7 +35,8 @@ const FormLanche = () => {
         formDataToSend.append('descricao', formData.descricao);
         formDataToSend.append('categoria', formData.categoria);
         if (formData.image) {
-            formDataToSend.append('image', formData.image);
+            formDataToSend.append('imagem', formData.image);
+            console.log(formData)
         }
 
         try {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './ListLanche.css';
 
-const url = 'http://localhost:3000/lanchonete';
+const url = 'http://localhost:3000/lanches';
 
 const ListLanche = () => {
     const [lanches, setLanches] = useState([]);

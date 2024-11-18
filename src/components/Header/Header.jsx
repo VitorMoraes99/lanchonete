@@ -12,8 +12,8 @@ function Header({ isAuthenticated, setIsAuthenticated }) {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/form-pet">Cadastro de Lanches</Link></li>
-          <li><Link to="/list-pet">Consulta</Link></li>
+          <li><Link to="/form-lanche">Cadastro de Lanches</Link></li>
+          <li><Link to="/list-lanche">Consulta do Cardápio</Link></li>
           <li><Link to="/contact">Contato</Link></li>
           {isAuthenticated ? (
             <>

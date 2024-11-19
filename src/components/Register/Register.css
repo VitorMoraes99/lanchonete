@@ -1,10 +1,15 @@
-.login-container, .register-container {
+.login-container,
+.register-container {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
+}
+
+.form-style {
+  margin-top: 80px;
 }
 
 h2 {
@@ -24,6 +29,8 @@ input {
 button {
   width: 100%;
   padding: 10px;
+  margin-top: 40px;
+
   background-color: #f14d56;
   color: white;
   font-size: 1rem;

@@ -1,18 +1,22 @@
-.login-container, .register-container {
-  max-width: 400px;
-  margin: 0 auto;
+.login-container,
+.register-container {
+  width: 400px;
+  height: 70%;
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #fff;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-h2 {
-  text-align: center;
-  color: #333;
+.form-style {
+  margin-top: 80px;
 }
 
-input {
+.input-style {
   width: 100%;
   margin-bottom: 15px;
   padding: 10px;
@@ -21,9 +25,10 @@ input {
   border-radius: 4px;
 }
 
-button {
+.button-style {
   width: 100%;
   padding: 10px;
+  margin-top: 40px;
   background-color: #f14d56;
   color: white;
   font-size: 1rem;
